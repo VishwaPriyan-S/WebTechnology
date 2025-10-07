@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE feedbacks SYSTEM "feedbacks.dtd">
+<?xml-stylesheet type="text/xsl" href="feedbacks.xsl"?>
+<feedbacks>
+    <feedback>
+        <name>Vishwa</name>
+        <rating>5</rating>
+        <comments>Loved the chocolate ice cream!</comments>
+    </feedback>
+    <feedback>
+        <name>Priya</name>
+        <rating>3</rating>
+        <comments>Vanilla was okay, could be better.</comments>
+    </feedback>
+    <feedback>
+        <name>Arun</name>
+        <rating>4</rating>
+        <comments>Great service and tasty ice cream!</comments>
+    </feedback>
+</feedbacks>

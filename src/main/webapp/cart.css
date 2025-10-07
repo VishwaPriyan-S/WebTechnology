@@ -1,0 +1,98 @@
+
+* {
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+body {
+  background: #ca8091;
+  color: #333;
+  padding: 20px;
+}
+
+.cart-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  padding: 30px;
+}
+
+.cart-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #ff6f91;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 25px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+table th {
+  background: #ff6f91;
+  color: white;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) { background: #f9f9f9; }
+table tr:hover { background: #ffe5ec; }
+
+
+.cart-item-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+
+button, .btn {
+  padding: 8px 15px;
+  background: #ff6f91;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background: #ff4f71;
+}
+
+.remove-btn {
+  background: #ffcc70;
+  color: #333;
+}
+.remove-btn:hover {
+  background: #ffb347;
+}
+
+
+.total {
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+
+.empty-cart {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin: 30px 0;
+}
